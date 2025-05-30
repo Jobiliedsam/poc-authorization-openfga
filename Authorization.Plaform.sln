@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A5370BA1-9C4F-4832-B60B-BAE32DFDE74C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.API", "src\Authorization.API\Authorization.API.csproj", "{2D617A65-61B1-4F20-A03A-932A28F2152F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{E48EC92D-A86B-482E-A653-212BC00E8E9E}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D617A65-61B1-4F20-A03A-932A28F2152F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D617A65-61B1-4F20-A03A-932A28F2152F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D617A65-61B1-4F20-A03A-932A28F2152F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D617A65-61B1-4F20-A03A-932A28F2152F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D617A65-61B1-4F20-A03A-932A28F2152F} = {A5370BA1-9C4F-4832-B60B-BAE32DFDE74C}
+	EndGlobalSection
+EndGlobal
